@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">PASSWORD GENIE
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <color name="white">#fff</color>
+    <color name="blue">#119</color>
+    <color name="green">#090</color>
+    <color name="lightblue">#099</color>
+    <color name="yellow">#ff1</color>
+    <color name="black">#000</color>
+    <string name="about1">
+	This is a password management app.
+	It stores your e-account information i.e. username and password
+	You can view your details, edit, delete and search them.
+	There is an option of forget password, if you forget your password you can use it.
+	You can also change your password and master password.
+	First you have to register yourself by entering username, password, master password, mobile number and email id.
+	Password should be of minimum 6 characters and it should contain at least 1 capital, 1 small and 1 number.
+	After that a code will be send to your registered mobile number or email id as per your choice.
+	After verification of code, login to your account by entering username and password.
+	 To view your e-account information first enter your master password.
+	After the verification of master password you can view, edit, delete or search your details.
+</string>
+    <string name="selectuname">SELECT USERNAME</string>
+    <string name="login">LOGIN YOUR ACCOUNT</string>
+    <string name="title_activity_register">Register</string>
+    <string name="addacc">ADD ACCOUNT</string>
+    <string name="reenter">RE-ENTER PASS</string>
+    <string name="phoneno">PHONE NO</string>
+    <string name="email">EMAIL ID</string>
+    <string name="credit">CREDIT</string>
+    <string name="title_activity_home__page">Home_Page</string>
+    <string name="mpass">MASTER PASSWORD</string>
+    <string name="title_activity_verify">Verify</string>
+    <string name="validate">VALIDATE YOUR ACCOUNT THROUGH </string>
+    <string name="sendcode">SEND CODE</string>
+    <string name="pg">Password Genie</string>
+    <string name="resendcode">RESEND CODE</string>
+    <string name="entercode">ENTER CODE</string>
+    <string name="valid">VALIDATE</string>
+    <string name="enterusername">ENTER USERNAME</string>
+    <string name="enterpass">ENTER PASSWORD</string>
+    <string name="add">ADD</string>
+    <string name="servicename">SERVICE NAME</string>
+    <string name="servicedesc">EX- GMAIL, FACEBOOK, LIC, NET BANKING, ORCUT etc </string>
+    <string name="title_activity_add_username">Add_username</string>
+    <string name="title_activity_add">Add</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="selectservice">SELECT SERVICE</string>
+    <string name="title_activity_cnfrm_pass">Cnfrm_pass</string>
+    <string name="title_activity_view_details">View_details</string>
+    <string name="selectusername">SELECT USERNAME TO EDIT</string>
+    <string name="about">ABOUT THE APP</string>
+
+    <string name="selectusernametoview">SELECT USERNAME TO VIEW</string>
+    <string name="entermasterpass">ENTER MASTER PASSWORD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="viewdetail">VIEW DETAILS</string>
+    <string name="savechangs">SAVE CHANGES</string>
+    <string name="changepass">CHANGE PASSWORD</string>
+    <string name="forgetpass">FORGET PASSWORD</string>
+    <string name="viewaccount">VIEW ACCOUNT DETAILS</string>
+    <string name="editaccount">EDIT ACCOUNT DETAILS</string>
+    <string name="deleteaccount">DELETE ACCOUNT DETAILS</string>
+    <string name="addinformation">ADD INFO</string>
+    <string name="viewinfo">VIEW INFO</string>
+    <string name="editinfo">EDIT INFO</string>
+    <string name="deleteinfo">DELETE INFO</string>
+    <string name="changempass">CHANGE MASTER PASSWORD</string>
+    <string name="logout">LOGOUT</string>
+    <string name="viewacc">YOUR ACCOUNT DETAILS</string>
+    <string name="back">BACK TO MAIN</string>
+    <string name="enterusername1">ENTER USERNAME</string>
+    <string name="cnfrmdelete">CONFIRM DELETE</string>
+    <string name="editacc">EDIT ACCOUNT DETAILS</string>
+    <string name="chngmpass">CHANGE MASTER PASSWORD</string>
+    <string name="entercurrentpass">ENTER CURRENT PASSWORD</string>
+    <string name="enternewpass">ENTER NEW PASSWORD</string>
+    <string name="title_activity_delete">Delete</string>
+    <string name="title_activity_cnfrm_mpassdelete">Cnfrm_mpassdelete</string>
+    <string name="title_activity_view_fordelete">View_fordelete</string>
+    <string name="title_activity_view_details2">View_details2</string>
+    <string name="title_activity_cnfrm_mpasssearch">Cnfrm_mpasssearch</string>
+    <string name="title_activity_selectservice_view">Selectservice_view</string>
+    <string name="title_activity_forget_password">Forget_password</string>
+    <string name="title_activity_cnfrmmobno">cnfrmmobno</string>
+    <string name="title_activity_change_pass">Change_pass</string>
+    <string name="deleteacc">DELETE ACCOUNT</string>
+    <string name="title_activity_view_acc">View_acc</string>
+    <string name="title_activity_delete_acc">Delete_acc</string>
+    <string name="title_activity_edit_acc">Edit_acc</string>
+    <string name="title_activity_change_pass1">Change_pass1</string>
+    <string name="title_activity_fragment">Fragment</string>
+    <string name="title_activity_change_mpass">Change_mpass</string>
+    <string name="title_activity_simple_gesture_filter">SimpleGestureFilter</string>
+    <string name="title_activity_credit_page">Credit_page</string>
+    <string name="title_activity_about">About</string>
+</resources>

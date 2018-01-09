@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bk29"
+    tools:context="com.example.komalagarwal.myapplication.Verify">
+
+
+<TextView
+    android:layout_width="400dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:text="@string/validate"
+    android:textSize="18dp"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textAlignment="center"
+    android:textStyle="bold"
+   />
+
+
+
+    <RadioGroup
+        android:layout_width="400sp"
+        android:layout_height="130sp"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:id="@+id/rg1"
+        >
+        <RadioButton
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:text="@string/email"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/email"
+             />
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:text="@string/phoneno"
+            android:visibility="visible"
+            android:checked="true"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:id="@+id/phone"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sendcode"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@color/highlighted_text_material_dark"
+        android:id="@+id/send"/>
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="resendcode"
+        android:background="@color/highlighted_text_material_dark"
+        android:textSize="20dp"
+        android:id="@+id/resend"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="80dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/entercode"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/entercode"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/highlighted_text_material_dark"
+        android:text="@string/valid"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:id="@+id/validate"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

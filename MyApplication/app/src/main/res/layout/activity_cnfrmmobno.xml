@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bk29"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.komalagarwal.myapplication.cnfrmmobno">
+
+    <TextView android:id="@android:id/empty" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:gravity="center" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/forgetpass"
+        android:textSize="30dp"/>
+
+
+    <RadioGroup
+        android:layout_width="450sp"
+        android:layout_height="130sp"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:id="@+id/rg1"
+        >
+        <RadioButton
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:text="@string/email"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/email"
+            />
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:text="@string/phoneno"
+            android:visibility="visible"
+            android:checked="true"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:id="@+id/phone"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="90dp"
+        android:text="@string/sendcode"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@color/highlighted_text_material_dark"
+        android:id="@+id/send"/>
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/black"
+        android:text="@string/resendcode"
+        android:layout_centerHorizontal="true"
+        android:background="@color/highlighted_text_material_dark"
+        android:textSize="20dp"
+        android:id="@+id/resend"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/entercode"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/entercode"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="70dp"
+        android:background="@color/highlighted_text_material_dark"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        android:id="@+id/validate"
+        android:textSize="20dp"/>
+</RelativeLayout>
